@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+  
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* oculta cualquier desbordamiento horizontal */
+}
+  
+
+nav {
+    display: flex;
+    background-color: #6dc21d;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-a {
+    text-decoration: none;
+    color: blue;
+}
+
+.nav-a:hover {
+    color: rgb(57, 59, 182);
+    cursor: pointer;
+}
+
+.main-section {
+    padding: 15%;
+    text-align: center;
+}
+
+.products {
+    background-image: url(../images/curve.png);
+    background-size: cover;
+}
+
+.product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.button-content {
+    padding: 15px 200px;
+    background-color: #6dc21d;
+    border-color: #6dc21d;
+    color: white;
+}
+
+.button-content:hover {
+    background-color: #60a81c;
+    cursor: pointer;
+}
+
+.img-spec-content img {
+  width: 125px;
+}
+
+.spec-content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.specs {
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.spec-items {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    background-color: rgb(247, 240, 240);
+    width: 100%;
+    padding: 2px;
+}
+
+.mentions-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mentions-container {
+    padding: 80px 200px 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mention-box {
+    box-shadow: 0px 0px 15px rgb(120, 80, 80);
+    height: 290px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img-box img{
+    width: 100%;
+}
+
+.box-content {
+    padding: 20px;
+}
+
+.footer {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(44, 24, 24);
+    display: flex;
+    align-items: center;
+}
+
+.footer-options {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    color: rgb(182, 150, 150);
+}
